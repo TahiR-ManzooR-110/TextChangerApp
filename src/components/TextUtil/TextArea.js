@@ -86,7 +86,7 @@ export default function TextArea(props) {
                         rows="10"
                         style={{
                             resize: "none",
-                            backgroundColor: props.Mode === "dark" ? "grey" : "white",
+                            backgroundColor: props.Mode === "dark" ? "#092145" : "white",
                             color: props.Mode === "dark" ? "white" : "black",
                         }}
                     ></textarea>
@@ -104,38 +104,38 @@ export default function TextArea(props) {
                 </div>
                 <button
                     type="button"
-                    className="btn btn-primary"
+                    className="btn btn-primary m-1"
                     onClick={upperCaseText}
                 >
                     UpperCase
                 </button>
                 <button
                     type="button"
-                    className="btn btn-primary mx-3"
+                    className="btn btn-primary m-1"
                     onClick={lowerCaseText}
                 >
                     LowerCase
                 </button>
-                <button type="button" className="btn btn-primary" onClick={clearField}>
+                <button type="button" className="btn btn-primary m-1" onClick={clearField}>
                     ClearText
                 </button>
                 <button
                     type="button"
-                    className="btn btn-primary mx-3"
+                    className="btn btn-primary m-1"
                     onClick={copyText}
                 >
                     CopyText
                 </button>
                 <button
                     type="button"
-                    className="btn btn-primary"
+                    className="btn btn-primary m-1"
                     onClick={RemoveExtraSpaces}
                 >
                     RemoveExtraSpaces
                 </button>
             </div>
             <div
-                className="container-fluid my-3"
+                className="container-fluid m-3"
                 style={{ color: props.Mode === "dark" ? "white" : "#042743" }}
             >
                 <h3>Preview</h3>
