@@ -1,0 +1,27 @@
+.w-80{
+    width: 98%;
+    text-align: justify;
+    word-wrap: break-word;
+}
+#alert{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    /* animation: fade-out 8s forwards;
+    z-index: 2; */
+}
+.alertBox{
+  width: 40%;
+  margin: auto;
+  height: 30px;
+}
+/* 
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+} */
