@@ -15,6 +15,12 @@
   margin: auto;
   height: 30px;
 }
+@media only screen and (max-width: 600px) {
+  .alertBox {
+    width: 100%;
+    font-size: 14px;
+  }
+}
 /* 
 @keyframes fade-out {
   0% {
