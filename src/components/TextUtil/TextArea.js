@@ -106,6 +106,7 @@ export default function TextArea(props) {
                     type="button"
                     className="btn btn-primary m-1"
                     onClick={upperCaseText}
+                    disabled={text.length === 0}
                 >
                     UpperCase
                 </button>
@@ -113,16 +114,18 @@ export default function TextArea(props) {
                     type="button"
                     className="btn btn-primary m-1"
                     onClick={lowerCaseText}
+                    disabled={text.length === 0}
                 >
                     LowerCase
                 </button>
-                <button type="button" className="btn btn-primary m-1" onClick={clearField}>
+                <button type="button" className="btn btn-primary m-1" onClick={clearField} disabled={text.length === 0}>
                     ClearText
                 </button>
                 <button
                     type="button"
                     className="btn btn-primary m-1"
                     onClick={copyText}
+                    disabled={text.length === 0}
                 >
                     CopyText
                 </button>
@@ -130,6 +133,7 @@ export default function TextArea(props) {
                     type="button"
                     className="btn btn-primary m-1"
                     onClick={RemoveExtraSpaces}
+                    disabled={text.length === 0}
                 >
                     RemoveExtraSpaces
                 </button>
